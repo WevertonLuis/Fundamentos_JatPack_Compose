@@ -2,37 +2,6 @@
 
 Este projeto é um aplicativo Android desenvolvido em Kotlin, utilizando Jetpack Compose para a construção de interfaces modernas e reativas. O objetivo principal é demonstrar o uso de listas Lazy (LazyColumn e LazyRow) para exibir e filtrar jogos favoritos por estúdio.
 
-## Funcionalidades
-
-- Exibição de uma lista de jogos favoritos.
-- Filtro de jogos por nome do estúdio, via campo de texto ou seleção direta.
-- Lista horizontal de estúdios (StudioCard) para filtro rápido.
-- Botão de limpar filtro, exibido apenas quando um filtro está ativo.
-- Interface moderna utilizando Material 3.
-
-## Estrutura do Projeto
-
-```
-app/
- ├── src/
- │   ├── main/
- │   │   ├── java/
- │   │   │   └── carreiras/com/github/fundamentos_jetpack_compose_listas_lazy/
- │   │   │        ├── MainActivity.kt         # Tela principal e lógica de UI
- │   │   │        ├── components/
- │   │   │        │    ├── GameCard.kt       # Componente visual para jogos
- │   │   │        │    └── StudioCard.kt     # Componente visual para estúdios
- │   │   │        ├── model/
- │   │   │        │    └── Game.kt           # Modelo de dados para jogos
- │   │   │        ├── repository/
- │   │   │        │    ├── GameRepository.kt # Funções de acesso e filtro de dados
- │   │   │        │    └── ...
- │   │   │        └── ui/theme/              # Temas e estilos
- │   │   └── res/                            # Recursos (layouts, strings, etc)
- │   └── ...
- └── ...
-```
-
 ## Como funciona
 
 - A tela principal exibe uma lista de jogos e uma lista horizontal de estúdios.
@@ -55,13 +24,6 @@ app/
 - **Gradle Kotlin DSL**
 
 ## Screenshots
+<img width="472" height="849" alt="image" src="https://github.com/user-attachments/assets/ff0d688e-4833-43e4-8d5d-cfbeb30d90b1" />
 
-> Adicione aqui prints da tela principal, busca e filtro aplicados (opcional).
-
-## Autor
-- Desenvolvido por Ewerton Carreira.
-
----
-
-Este projeto é um exemplo didático para estudos de Jetpack Compose e listas dinâmicas no Android.
-
+<img width="472" height="850" alt="image" src="https://github.com/user-attachments/assets/e80b02ea-dea6-40f9-b63d-099fa83e6eac" />
