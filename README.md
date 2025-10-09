@@ -1,29 +1,27 @@
-# Fundamentos Jetpack Compose Listas Lazy
+# App de Lista de Carros com Jetpack Compose
 
-Este projeto é um aplicativo Android desenvolvido em Kotlin, utilizando Jetpack Compose para a construção de interfaces modernas e reativas. O objetivo principal é demonstrar o uso de listas Lazy (LazyColumn e LazyRow) para exibir e filtrar jogos favoritos por estúdio.
+Este é um projeto de estudo para Android, desenvolvido com Kotlin e Jetpack Compose, que demonstra a criação de listas dinâmicas e interativas. O aplicativo exibe uma lista de modelos de carros clássicos e permite ao usuário filtrar a lista por montadora.
 
-## Como funciona
+<img width="460" height="824" alt="image" src="https://github.com/user-attachments/assets/d0768744-b035-4901-a6f6-a89c1ca1d50a" />
 
-- A tela principal exibe uma lista de jogos e uma lista horizontal de estúdios.
-- O usuário pode filtrar os jogos digitando o nome do estúdio ou clicando em um StudioCard.
-- O filtro pode ser limpo facilmente com o botão "Limpar filtro".
+<img width="457" height="818" alt="image" src="https://github.com/user-attachments/assets/974e2aab-d278-4112-82eb-f07c72df46b6" />
 
-## Como rodar o projeto
 
-1. Clone este repositório:
-   ```sh
-   git clone <url-do-repositorio>
-   ```
-2. Abra o projeto no Android Studio.
-3. Execute em um emulador ou dispositivo físico Android.
 
-## Tecnologias utilizadas
-- **Kotlin**
-- **Jetpack Compose**
-- **Material 3**
-- **Gradle Kotlin DSL**
 
-## Screenshots
-<img width="472" height="849" alt="image" src="https://github.com/user-attachments/assets/ff0d688e-4833-43e4-8d5d-cfbeb30d90b1" />
+## ✨ Funcionalidades
 
-<img width="472" height="850" alt="image" src="https://github.com/user-attachments/assets/e80b02ea-dea6-40f9-b63d-099fa83e6eac" />
+-   **Listagem Dinâmica**: Exibe uma lista de carros usando `LazyColumn`.
+-   **Filtro por Montadora**: Permite filtrar os carros pelo nome da montadora (fabricante).
+-   **Busca Interativa**: O filtro pode ser aplicado de duas formas:
+    1.  Digitando no campo de busca.
+    2.  Clicando no card da montadora em uma lista horizontal (`LazyRow`).
+-   **Limpar Filtro**: Opção para remover o filtro aplicado e restaurar a lista completa.
+
+## 🛠️ Tecnologias Utilizadas
+
+-   **[Kotlin](https://kotlinlang.org/)**: Linguagem de programação principal.
+-   **[Jetpack Compose](https://developer.android.com/jetpack/compose)**: Toolkit de UI moderno para Android.
+    -   Gerenciamento de estado com `remember` e `mutableStateOf`.
+    -   Listas eficientes com `LazyColumn` e `LazyRow`.
+    -   Componentes do Material Design 3 (`Card`, `OutlinedTextField`, `Scaffold`).
